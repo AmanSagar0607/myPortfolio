@@ -20,11 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+// import firebase from "./tech/firebase.png";
 import meta from "./company/meta.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import toolhunt from "./ToolHunt.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -39,6 +39,7 @@ import tripme from "./Tripme.png"
 
 export {
   logo,
+  toolhunt,
   backend,
   creator,
   mobile,
@@ -47,6 +48,7 @@ export {
   menu,
   close,
   css,
+  // firebase,
   docker,
   figma,
   git,
@@ -73,5 +75,4 @@ export {
   loruki,
   AryanPhotography,
   tripme,
-
 };

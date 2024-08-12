@@ -5,13 +5,16 @@ import {
   web,
   javascript,
   html,
+  toolhunt,
   css,
   reactjs,
+  redux,
   // nextjs,
   tailwind,
   nodejs,
+  // firebase,
   git,
-  // docker,
+  docker,
   figma,
   starbucks,
   tesla,
@@ -85,11 +88,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Html",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -97,19 +100,27 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "React.JS",
+    name: "ReactJS",
     icon: reactjs,
   },
   {
-    name: "Next.JS",
+    name: "Redux",
+    icon: redux,
+  },
+  {
+    name: "EXpressJS",
+    icon: reactjs,
+  },
+  {
+    name: "NextJS",
     icon: "https://raw.githubusercontent.com/AmanSagar06/Assets/main/nextjs.256x256.png",
   },
   {
-    name: "Tailwind",
+    name: "TailwindCSS",
     icon: tailwind,
   },
   {
-    name: "Node.JS",
+    name: "NodeJS",
     icon: nodejs,
   },
   {
@@ -150,9 +161,17 @@ const technologies = [
     icon: figma,
   },
   // {
-  //  name: "docker",
-  //  icon: docker,
+  //   name: "firebase",
+  //   icon: firebase,
   // },
+  // {
+  //   name: "AWS",
+  //   icon: AWS,
+  // },
+  {
+   name: "docker",
+   icon: docker,
+  },
 ];
 
 const experiences = [
@@ -238,6 +257,62 @@ const testimonials = [
 ];
 
 const project = [
+  {
+    name: "Tool Hunt",
+    description:
+      "Elevate Your Projects with the Best Tools for Designers & Developers.",
+    tags: [
+      //HTML, CSS, JavaScript, ReactJs, NodeJs, ThreeJs, ViteJs, Tailwind CSS and Git/GitHub
+
+      // {
+      //   name: "NextJS",
+      //   color: "blue-text-gradient",
+      // },
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "Liveblocks",
+      //   color: "pink-text-gradient",
+      // },
+      {
+        name: "Vercel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "Typscript",
+      //   color: "green-text-gradient",
+      // },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Git/Github",
+        color: "green-text-gradient",
+      },
+    ],
+    image: toolhunt,
+    // image: "https://raw.githubusercontent.com/AmanSagar0607/FigPro/main/public/assets/figpro.png",
+    source_code_link: "https://toolhunt.vercel.app/",
+  },
   {
     name: "Fig Pro",
     description:

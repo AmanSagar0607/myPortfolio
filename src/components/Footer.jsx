@@ -41,7 +41,7 @@ const Footer = () => {
               <FaCoffee size={24} />
             </Link>
             <Link
-              to="https://www.instagram.com/Aman_Sagar0607/"
+              to="https://instagram.com/i.AmanSagar"
               className="text-gray-500 hover:text-white"
             >
               <FaInstagram size={24} />

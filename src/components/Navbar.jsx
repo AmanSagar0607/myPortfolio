@@ -42,7 +42,7 @@ const Navbar = () => {
             </li>
           ))}
           <Link
-            to="https://drive.google.com/file/d/1Sk1c0zwP4SGxWRWFKpBQHg8JPm1_YFvi/view?usp=sharing"
+            to="https://drive.google.com/file/d/12dytXHteX4GrK16zuGxB8bsQ_s6bSBYZ/view?usp=drive_link"
             className="flex items-center"
             onClick={() => {
               setActive("");
@@ -112,7 +112,7 @@ const Navbar = () => {
                 />
               </Link>
               <Link
-                to="https://drive.google.com/file/d/17m9GjH_TnOLXnP9jjOmhzpiaQ48Tac77/view?usp=drive_link"
+                to="https://drive.google.com/file/d/12dytXHteX4GrK16zuGxB8bsQ_s6bSBYZ/view?usp=drive_link"
                 onClick={() => {
                   setActive("");
                   window.scrollTo(0, 0);

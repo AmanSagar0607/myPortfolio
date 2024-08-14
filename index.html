@@ -3,11 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png+xml" href="./logo.png" />
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aman | Portfolio</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/amansagar0307",
+          text: "Schedule with me",
+          color: "#050816",
+          textColor: "#ffffff",
+          branding: true,
+        });
+      };
+    </script>
   </body>
 </html>

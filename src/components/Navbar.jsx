@@ -25,7 +25,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[20px] font-semibold cursor-pointer flex">
-            Portfolio
+            man
           </p>
         </Link>
 

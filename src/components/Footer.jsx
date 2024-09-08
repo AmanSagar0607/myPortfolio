@@ -53,7 +53,7 @@ const Footer = () => {
               <FaTwitter size={24} />
             </Link>
             <Link
-              to="https://linktr.ee/amansagar0607"
+              to="https://bento.me/amansagar"
               className="text-gray-500 hover:text-white"
             >
               {/* <span class="icon-[simple-icons--linktree]"></span> */}
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
         <hr className="my-10 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          Made with 💗 by{" "}
+          Made with 💛 by{" "}
           <Link
             to="https://www.linkedin.com/in/amansagar0607/"
             className="hover:underline"

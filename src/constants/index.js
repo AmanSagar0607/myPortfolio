@@ -176,6 +176,19 @@ const technologies = [
 
 const experiences = [
   {
+  title: "Java Developer Intern",
+  company_name: "Kodnest",
+  icon: "https://app.kodnest.com/logos/kodnest-logo.png", // Add the correct icon URL
+  iconBg: "#383E56",
+  date: "June 2024 - Present",
+  location: "Bengaluru, India (Remote)",
+  points: [
+    "Developing full-stack applications using Java and SQL, enhancing both frontend and backend functionalities.",
+    "Implemented modern technologies and frameworks to optimize system design and improve performance.",
+    "Built scalable and optimized solutions to ensure seamless user experiences."
+  ],
+},
+  {
     title: "Web Developer Intern",
     company_name: "Codsoft",
     icon: "https://raw.githubusercontent.com/AmanSagar06/Assets/main/codsoft-removebg.png",
@@ -206,8 +219,8 @@ const experiences = [
     //location:"Bhopal",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "July 2020 - Present",
-    points: ["CGPA : 7.05"],
+    date: "2020 - 2024",
+    points: ["CGPA : 7.15"],
   },
   {
     title: "Higher Secondary (XII)",
